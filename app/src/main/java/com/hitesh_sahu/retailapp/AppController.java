@@ -40,6 +40,7 @@ public class AppController extends Application {
         if (PreferenceHelper.getPrefernceHelperInstace().getBoolean(
                 this, PreferenceHelper.SUBMIT_LOGS, true)) {
             ACRA.init(this);
+               
         }
     }
 
