@@ -3,5 +3,4 @@ WORKDIR  /usr/local/tomcat
 COPY tomcat-users.xml /usr/local/tomcat/conf/tomcat-users.xml
 COPY context.xml /usr/local/tomcat/webapps/manager/META-INF/context.xml
 COPY ./target/app-2.5-SNAPSHOT.jar /usr/local/tomcat/webapps/myapp.jar
-EXPOSE 8080
 
